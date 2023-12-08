@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/7thh9p/build/static/css/main.9c5c5444.css",
+    "main.js": "/7thh9p/build/static/js/main.f0863143.js",
+    "index.html": "/7thh9p/build/index.html",
+    "main.9c5c5444.css.map": "/7thh9p/build/static/css/main.9c5c5444.css.map",
+    "main.f0863143.js.map": "/7thh9p/build/static/js/main.f0863143.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c5c5444.css",
+    "static/js/main.f0863143.js"
+  ]
+}
