@@ -1,4 +1,5 @@
-#theme: minima
+# reference: https://github.com/f1sty/f1sty.github.io/blob/main/_config.yml
+#theme: no-style-please
 exclude: [7thh9p/node_modules]
 
 plugins:
@@ -6,22 +7,18 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-collections:
-  authors:
-    output: true
+theme: minima
 
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+title: Kien's stuffs
+email: vutrankien.vn@gmail.com
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Blog about things I'm interested. Programming, Clean code, OOP, 
+github_username: kentvu
+twitter_username: vutrankien
+
+minima:
+  skin: solarized
+
+header_pages:
+  - about.md
+  - index.html
