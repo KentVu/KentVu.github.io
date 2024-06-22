@@ -20,4 +20,4 @@ tar -tf /usr/src/MINGW-packages/mingw-w64-neovim/mingw-w64-x86_64-neovim-0.9.5-4
 		cmd <<<"mklink /H \"$dest\" \"$source\""
 	done
 ```
-Thanks to this [SO post](https://stackoverflow.com/a/25394801/1562087)
+Thanks to this [SO post](https://stackoverflow.com/a/25394801/1562087).
