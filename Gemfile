@@ -8,7 +8,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #gem "jekyll"
 gem "github-pages"
 gem "minima"
-gem "webrick", "~> 1.8"
+#gem "webrick", "~> 1.8"
 #gem "no-style-please"
 
 group :jekyll_plugins do
